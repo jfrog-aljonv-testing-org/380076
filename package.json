@@ -1,0 +1,14 @@
+{
+  "name": "frogbot-test-repo",
+  "version": "1.0.0",
+  "description": "Minimal repo to test Frogbot auto-fix PR (contains vulnerable lodash)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"no tests\""
+  },
+  "dependencies": {
+    "lodash": "4.17.10"
+  },
+  "author": "frogbot-test",
+  "license": "MIT"
+}
