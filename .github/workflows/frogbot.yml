@@ -23,6 +23,9 @@ jobs:
         branch: ["main"]
     steps:
       - uses: jfrog/frogbot@v2
+        with:
+          # enable auto-fix behavior
+          auto_fix: true
         env:
           JF_URL: ${{ secrets.JF_URL }}
           JF_ACCESS_TOKEN: ${{ secrets.JF_ACCESS_TOKEN }}
